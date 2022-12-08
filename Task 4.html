@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Task 4</title>
+        <style>
+            section{
+                margin-top: 180px;
+                display: grid;
+                grid-template-columns: repeat(10, 1fr);
+                grid-template-rows: repeat(10, 1fr);
+                transform: rotate(40deg);
+            }
+            .div1{
+                grid-column: 3/4;
+                grid-row: span 8;
+                background-color: rgb(77, 84, 126);
+                margin: 10px;
+                padding: 10px;
+            }
+            .div2{
+                grid-column: 4/7;
+                grid-row: span 3;
+                background-color: rgb(77, 84, 126);
+                margin: 10px;
+                padding: 10px;
+            }
+            .div3{
+                grid-column:4/6;
+                grid-row: span 5;
+                /* grid-row: 4/8; */
+                background-color: rgb(77, 84, 126);
+                margin: 10px;
+                padding: 10px;
+
+            }
+            .div4{
+                grid-column: 6/7;
+                grid-row: 4/11;
+                background-color: rgb(77, 84, 126);
+                margin: 10px;
+                padding: 10px;
+            }
+            .div5{
+                grid-row: span 3;
+                /* grid-row: 8/11; */
+                grid-column: 3/6;
+                background-color: rgb(77, 84, 126);
+                margin: 10px;
+                padding: 10px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+            <div class="div4">4</div>
+            <div class="div5">5</div>
+        </section>
+
+        
+    </body>
+</html>
